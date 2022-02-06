@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(23, 59, 75);
+  padding: 2rem 7%;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  color: #ffee00;
+}
+
+header .logo:hover {
+  color: #fff;
+}
+
+header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+header .navbar ul li a {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  color: #fff;
+  position: relative;
+}
+
+header .navbar ul li a:hover {
+  color: yellow;
+}
+
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1b0636, rgb(90, 71, 42));
+}
+
+.Home .image img {
+  width: 45rem;
+  height: 30rem;
+  border-radius: 0.8rem;
+  margin-left: 8rem;
+  margin-top: 3rem;
+  border: 5px solid #eee;
+}
+
+.Home .Content h1 {
+  color: #fff;
+  font-size: 3.1rem;
+  margin-left: 1rem;
+}
+
+.Home .Content p {
+  color: #eee;
+  font-size: 1rem;
+  margin-left: 0.7rem;
+  padding: 1rem;
+}
+
+.Home .Content .btn {
+  font-size: 1.3rem;
+  width: 12rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 2rem;
+  margin-left: 9rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: #ffffff;
+}
+
+.Home .Content .btn:hover {
+  background-color: yellow;
+}
+
+.services {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgb(17, 16, 61), rgb(87, 20, 78));
+}
+
+.services .head {
+  font-size: 2.3rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.services .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services .card .box {
+  background: linear-gradient(to bottom, rgb(255, 0, 234), rgb(232, 233, 187));
+  width: 20rem;
+  height: 23rem;
+  margin: 1.3rem;
+  margin-top: 7rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(51, 50, 50, 0.6);
+}
+
+.services .card .box:hover {
+  background: rgb(245, 179, 56);
+  transform: scale(1.06);
+  transition: all 1s ease;
+}
+
+.services .card .box img {
+  width: 20rem;
+  height: 10rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.services .card .box h1 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.services .card .box p {
+  text-align: center;
+  padding: 1rem;
+}
+
+.services .card .box .btn-1 {
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
+  background-color: #1900ff;
+  color: #fff;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+.services .card .box .btn-1:hover {
+  transform: scale(1.06);
+  transition: all 1s ease;
+  background-color: #450264;
+  color: #fff;
+}
+
+.contact {
+  min-height: 100vh;
+  background: rgba(53, 53, 53, 0.835);
+}
+
+.contact .heading {
+  text-align: center;
+  padding-top: 5.5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact form {
+  margin: 1rem auto;
+  margin-top: 3rem;
+  width: 50rem;
+  height: 32rem;
+  border-radius: 0.5rem;
+  background: #000;
+  padding: 2rem;
+}
+
+.contact form .box {
+  padding: 1rem 1.5rem;
+  width: 100%;
+  color: #444;
+  font-size: 1.6rem;
+  text-transform: none;
+  margin: 0.7rem 0;
+  background: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.contact form textarea {
+  height: 8rem;
+  resize: none;
+ 
+}
+
+.contact .btn {
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(236, 81, 190), rgb(209, 166, 47));
+  border: none;
+  color: #000;
+  font-size: 2rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.contact .btn:hover {
+  background: linear-gradient(to bottom, rgb(213, 255, 97), rgb(47, 255, 210));
+  color: #000;
+}
+
+footer {
+  min-height: 18vh;
+  background: #000;
+}
+
+footer h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+footer .social {
+  padding-top: 0.8rem;
+  margin-left: 42rem;
+}
+
+footer .social img {
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+footer .social img:hover {
+  transform: scale(1.05);
+  transition: 1s all ease;
+}
